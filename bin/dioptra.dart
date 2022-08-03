@@ -1,5 +1,8 @@
 import 'package:dioptra/dioptra.dart' as dioptra;
 
 void main(List<String> arguments) {
-  print('Hello world: ${dioptra.calculate()}!');
+  if (arguments.isEmpty) {
+    print("[-if <FILE> | -ie <ENVIRONMENT VAR>]");
+    print("[-increment Increment the value by 1]");
+  }
 }
