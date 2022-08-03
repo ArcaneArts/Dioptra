@@ -1,2 +1,2 @@
-# Dioptra
-Complex builds are annoying. This can interact with environment variables, configurations &amp; text files and put them into places. It can also do math.
+A sample command-line application with an entrypoint in `bin/`, library code
+in `lib/`, and example unit test in `test/`.
